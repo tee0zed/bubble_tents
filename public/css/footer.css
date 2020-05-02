@@ -1,0 +1,30 @@
+.footer {
+  padding: 17.5% 0;
+  background-color: #f3f3f3;
+  display: flex;
+}
+
+.footer-element {
+  display: flex;
+  white-space: nowrap;
+  margin: auto;
+}
+
+.icon {
+  background: url("images/nature.jpg") no-repeat;
+  margin: auto 20px;
+  opacity: 73%;
+  height: auto;
+  width: 100%;
+}
+
+.author {
+  position: absolute;
+  bottom: -1986px;
+  font-size: 14px;
+  opacity: 9%;
+  font-family: sans-serif;
+  margin-right: 45%;
+  margin-left: 45%;
+  text-align: center;
+}

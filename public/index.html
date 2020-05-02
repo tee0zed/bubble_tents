@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <!--github.com/tee0zed-->
+  <meta charset="UTF-8">
+  <title>Баббл-палатки</title>
+  <script src="libs/jquery/jquery-3.5.0.min.js"></script>
+  <script src="libs/js/features_toggle.js"></script>
+  <script src="libs/parallax.js-1.5.0/parallax.js"></script>
+  <script src="libs/js/smooth_scrolling.js"></script>
+
+  <link rel="stylesheet" href="css/reset.css">
+
+  <link rel="stylesheet" href="css/form.css">
+  <link rel="stylesheet" href="css/text.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/button.css">
+  <link rel="stylesheet" href="css/intro.css">
+  <link rel="stylesheet" href="css/features.css">
+  <link rel="stylesheet" href="css/variants.css">
+  <link rel="stylesheet" href="css/card.css">
+  <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+  <div class="header">
+    <div class="box margin-both">
+      <div class="header-logo">
+        <b>Баббл</b>
+        Палатки
+      </div>
+      <div class="header-nav">
+        <div class="header-nav-item">
+          <a href="#intro" class="header-nav-link">
+            intro
+          </a>
+        </div>
+        <div class="header-nav-item">
+          <a href="#features" class="header-nav-link">
+            features
+          </a>
+        </div>
+        <div class="header-nav-item">
+          <a href="#variants" class="header-nav-link">
+            variants
+          </a>
+        </div>
+        <div class="header-nav-item">
+          <a href="#footer" class="header-nav-link">
+            buy
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="intro" class="intro text-right" data-parallax="scroll" data-image-src="./images/stars.jpeg">
+    <div class="title-large">
+      Дотянись <span style="white-space: nowrap">рукой до</span> <span class="bold">звезд</span>
+    </div>
+    <div class="text-medium">
+      <a class="button" href="#footer">спроси как</a>
+    </div>
+  </div>
+  <div id="features" class="features">
+    <div class="box text-center">
+      <div class="column-1-3">
+        <div class="features-item">
+          <img src="images/leaf.png" class="features-icon">
+            <p class="title-medium">качественные</p>
+            <p class="features-text">Диаметр прозрачной палатки "Баббл" на фото 4.0м и 5,0м, она надувается автоматически за несколько минут благодаря штатному нагнетателю воздуха и не боится проколов и порезов оболочки.</p>
+        </div>
+      </div>
+      <div class="column-1-3">
+        <div class="features-item">
+          <img src="images/leaf.png" class="features-icon">
+            <p class="title-medium">теплые</p>
+            <p class="features-text">Компания "Эдвенче" изготавливает такие палатки - пузырь (BUBBLE) из материала высокой прозрачности с отличными температурными (-45°/+45°) и прочностными характеристиками.</p>
+        </div>
+      </div>
+      <div class="column-1-3">
+        <div class="features-item">
+          <img src="images/leaf.png" class="features-icon">
+            <p class="title-medium">незабываемый отдых</p>
+            <p class="features-text">Зачастую они устанавливаются в привлекательном или даже экзотическом месте: например, на фоне горного пейзажа или лесной поляны, рядом с бурной рекой или озером.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="variants" class="variants">
+    <div class="box">
+      <h1 class="back">Варианты:</h1>
+      <div class="column-1-3">
+        <div class="variants-item">
+          <h2 class="title-medium">Вариант 1</h2>
+          <div class="card">
+            <img class="card-image" src="images/60.jpg" alt="bubble-tent">
+            <div class="container text-medium">
+              Надувная прозрачная палатка с тамбуром "Bubble" глэмпинга. Диаметр палатки 4,0м
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column-1-3">
+        <div class="variants-item">
+            <h2 class="title-medium">Вариант 2</h2>
+          <div class="card">
+            <img class="card-image" src="images/70.jpg" alt="bubble-tent">
+            <div class="container text-medium">
+              Надувная прозрачная палатка с тамбуром "Bubble" глэмпинга. Диаметр палатки 4,0м
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column-1-3">
+        <div class="variants-item">
+          <h2 class="title-medium">Вариант 3</h2>
+          <div class="card">
+            <img class="card-image" src="images/80.jpg" alt="bubble-tent">
+            <div class="container text-medium">
+              для входа/выхода и техническим отсеком "Bubble". Диаметр палатки 5,0м
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="footer" class="footer">
+    <div class="footer-element">
+      <div class="icon">
+        <img class="image" src="images/nature.jpg" alt="icon">
+      </div>
+      <div>
+      <div class="title-small">Закажите звонок!</div>
+      <div class="form">
+        <form action="/orders" method="post">
+          <p class="margin-both">
+            <input class="form-input-text" type="text" name="order[name]" placeholder="Ваше имя">
+          </p>
+          <p class="margin-both">
+            <input class="form-input-text" type="email" name="order[email]" placeholder="Email" required>
+          </p>
+          <p class="margin-both">
+            <input class="form-input-text" type="tel" name="order[phone]" placeholder="Телефон">
+          </p>
+          <input type="submit" class="button green" value="Заказать">
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="author">Тарас Жук(c) github.com/tee0zed</div>
+</body>
+</html>

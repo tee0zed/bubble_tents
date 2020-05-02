@@ -1,0 +1,31 @@
+.features {
+  padding: 80px 0;
+  background: #f3f3f3;
+}
+
+.features-item {
+  padding: 0 55px;
+}
+
+.features-icon {
+  width: 20%;
+  height: auto;
+  cursor: pointer;
+}
+
+.features-icon:hover {
+  opacity: 37%;
+  transition: 2s;
+}
+
+@media (max-width: 1400px) {
+  .features-item {
+  padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 800px) {
+  .features-item {
+  padding-bottom: 40px;
+  }
+}

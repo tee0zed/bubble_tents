@@ -1,0 +1,20 @@
+.ty-block {
+  background-image: url("../images/stars.jpeg");
+  background-size: cover;
+  height: 400px;
+  margin: 5% 0 5% 0;
+  color: whitesmoke;
+  position: relative;
+}
+
+.ty-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.ty {
+  background-color: #f3f3f3;
+}

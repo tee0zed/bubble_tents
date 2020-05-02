@@ -1,0 +1,12 @@
+.intro {
+  background-color: rgba(0, 0, 0, 0);
+  background-image: linear-gradient(rgba(138, 186, 86, 0), rgba(97, 0, 132, 0.32) 99%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll, fixed;
+  background-position: 0 0%, center top;
+
+  color: #fff;
+  padding: 20% 15%;
+  margin-top: 54px;
+}
